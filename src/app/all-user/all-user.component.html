@@ -1,0 +1,40 @@
+<div class="container-fluid">
+
+   
+
+    <div class="container" >
+        <h2 class="text-primary">Infospica Users <span><i class="fa-solid fa-user"></i></span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officiis aliquid praesentium quisquam nulla eligendi atque quam porro, officia deleniti. Ullam iure omnis laboriosam perferendis aliquam est veniam dignissimos blanditiis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ab perspiciatis ipsum in, sint nobis, dolores cupiditate hic, iure facere quos commodi eveniet itaque quisquam. Suscipit, cumque exercitationem. Voluptas, inventore.</p>
+    
+        <hr>
+
+    <table  class="table mt-5">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">DOB</th>
+            <th scope="col">E-Mail</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Gender</th>
+            
+          </tr>
+        </thead>
+        <tbody *ngFor="let user of allUsers">
+          <tr>
+            <th scope="row">{{user.userid}}</th>
+            <td>{{user.username}}</td>
+            <td>{{user.dob}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.salary}}</td>
+            <td>{{user.gender}}</td>
+            <th scope="col"><a routerLink="edit-user/{{user.userid}}">  <i class="fa-solid fa-pen"></i></a></th>
+            <th scope="col"><a (click)="deleteUser(user.userid)"><i class="fa-solid fa-trash"></i></a></th>
+           
+          </tr>
+         
+         
+        </tbody>
+      </table>
+    </div>
+</div>

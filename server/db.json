@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "userid": "1",
+      "username": "Ganesh W Lal",
+      "dob": "04-08-1997",
+      "email": "ganesh@gmail.com",
+      "salary": "500000",
+      "gender": "Male"
+    },
+    {
+      "userid": "2",
+      "username": "Gayathri R Lal",
+      "dob": "12-05-1996",
+      "email": "gayathri@gmail.com",
+      "salary": "450000",
+      "gender": "Female"
+    },
+    {
+      "userid": "3",
+      "username": "Karthik",
+      "dob": "18-03-1997",
+      "email": "Karthik@gmail.com",
+      "salary": "400000",
+      "gender": "Male"
+    },
+    {
+      "userid": "4",
+      "username": "Ajay",
+      "dob": "9-11-1996",
+      "email": "ajay@gmail.com",
+      "salary": "350000",
+      "gender": "Male"
+    },
+    {
+      "userid": "5",
+      "username": "Vishnu",
+      "dob": "23-01-1997",
+      "email": "vishnu@gmail.com",
+      "salary": "300000",
+      "gender": "Male"
+    }
+  ]
+}
